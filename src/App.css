@@ -1,7 +1,6 @@
 .App {
   text-align: center;
 }
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +34,21 @@
   to {
     transform: rotate(360deg);
   }
+}
+.field {
+  margin: 10px 300px;
+}
+
+.Container{
+  display: flex;
+  width: 400px;
+  margin: 50px 640px
+}
+.SignUp{
+    display: flex;
+    flex-direction: column;
+}
+.navbar-item {
+  display: flex;
+  justify-content: flex-end;
 }
